@@ -37,6 +37,11 @@
             <stringProp name="Argument.value">${__property(user.dir)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
+          <elementProp name="TIMER_RANDOM_DELAY_MAX" elementType="Argument">
+            <stringProp name="Argument.name">TIMER_RANDOM_DELAY_MAX</stringProp>
+            <stringProp name="Argument.value">${__P(randomeDelayMax,10000)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
         </collectionProp>
       </elementProp>
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
@@ -236,7 +241,7 @@
           </hashTree>
           <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
             <stringProp name="ConstantTimer.delay">10</stringProp>
-            <stringProp name="RandomTimer.range">10000</stringProp>
+            <stringProp name="RandomTimer.range">${TIMER_RANDOM_DELAY_MAX}</stringProp>
           </UniformRandomTimer>
           <hashTree/>
         </hashTree>
