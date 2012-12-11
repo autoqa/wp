@@ -19,17 +19,17 @@
           </elementProp>
           <elementProp name="THREADS" elementType="Argument">
             <stringProp name="Argument.name">THREADS</stringProp>
-            <stringProp name="Argument.value">${__P(threads,1)}</stringProp>
+            <stringProp name="Argument.value">${__P(threads,20)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="RAMPUP" elementType="Argument">
             <stringProp name="Argument.name">RAMPUP</stringProp>
-            <stringProp name="Argument.value">${__P(rampUp,1)}</stringProp>
+            <stringProp name="Argument.value">${__P(rampUp,2)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="LOOPS" elementType="Argument">
             <stringProp name="Argument.name">LOOPS</stringProp>
-            <stringProp name="Argument.value">${__P(loops,1)}</stringProp>
+            <stringProp name="Argument.value">${__P(loops,100)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="DATA_DIR" elementType="Argument">
@@ -39,7 +39,7 @@
           </elementProp>
           <elementProp name="TIMER_RANDOM_DELAY_MAX" elementType="Argument">
             <stringProp name="Argument.name">TIMER_RANDOM_DELAY_MAX</stringProp>
-            <stringProp name="Argument.value">${__P(randomeDelayMax,1)}</stringProp>
+            <stringProp name="Argument.value">${__P(randomeDelayMax,5000)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
