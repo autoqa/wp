@@ -1,6 +1,6 @@
-#!/bin/bash -x
+#!/bin/bash 
 echo [INFO] -------------------------------------------------------
-echo [INFO]  P E R F O R M A N C E    T E S T S
+echo [INFO]  P E R F O R M A N C E  --  T E S T S
 echo [INFO] -------------------------------------------------------
 
 jmeter -n -Jhost=welcome2anthem.nimblefish.com -Jthreads=20 -JrampUp=2 -Jloops=50 -JrandomeDelayMax=2000 \
